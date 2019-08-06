@@ -1,0 +1,33 @@
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel='stylesheet' href='../static/style.css'>
+</head>
+<body>
+<div>
+	
+<main id="camera">
+
+   <!-- Camera sensor -->
+   <canvas id="camera--sensor"></canvas>
+   
+   <!-- Camera view -->
+   <video id="camera--view" autoplay playsinline></video>
+   
+   <!-- Camera output -->
+   <img src="//:0" alt="" id="camera--output">
+	
+   <!-- AI Result -->
+   <div class='result-label'>
+   	<label id='result-label'></label>
+   </div>
+
+   <!-- Camera trigger -->
+   <button id="camera--trigger">Take a picture</button>
+
+</main>
+</div>
+	  <script src='../static/client.js'></script>
+</body>
+</html>
